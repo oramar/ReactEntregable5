@@ -1,0 +1,61 @@
+.logo-container {
+    position: relative;
+}
+
+.logo__img {
+    position: absolute;
+    width: 431px;
+    height: 76px;
+    left: 133px;
+    top: 47px;
+}
+
+.logo__rentangle--red {
+    width: 1440px;
+    height: 123.18px;
+    left: 0px;
+    top: 870px;
+    background: #DD1A1A;
+}
+
+.logo__rentangle--negro {
+    width: 1440px;
+    height: 69px;
+    left: 0px;
+    top: 962px;
+
+    background: #0C0C0C;
+}
+
+.logo__ellipse {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 118px;
+    height: 118px;
+    left: 545px;
+    top: -124px;
+}
+
+.logo__ellipse--exterior {
+    box-sizing: border-box;
+    position: absolute;
+    width: 117px;
+    height: 117px;
+    background: #FFFFFF;
+    border: 12px solid #000000;
+    border-radius: 50%;
+
+}
+
+.logo__ellipse--interior {
+    box-sizing: border-box;
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    background: #212121;
+    border: 12px solid #000000;
+    border-radius: 50%;
+    z-index: 1;
+}
