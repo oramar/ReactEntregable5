@@ -1,0 +1,17 @@
+.stats-header{    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.4em;
+}
+
+.card-info__label{
+    padding-left: 0.3em;
+    text-transform: capitalize;
+}
+.card-info__body{
+    width: 100%;
+    min-width: 750px;
+}
+.stats__parent{
+    margin-bottom: 1em;
+}
